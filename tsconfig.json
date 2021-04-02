@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "composite": false,
+    "declaration": true,
+    "esModuleInterop": true,
+    "incremental": false,
+    "jsx": "react",
+    "allowJs": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "noEmitOnError": false,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "preserveWatchOutput": true,
+    "resolveJsonModule": false,
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "target": "es2015",
+    "lib": [
+      "dom.iterable",
+      "dom",
+      "esnext"
+    ],
+    "declarationMap": true,
+    "downlevelIteration": true,
+    "paths": {
+      "@workspace/*": ["packages/*"]
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "bazel-*",
+    "dist",
+    "reports"
+  ]
+}
